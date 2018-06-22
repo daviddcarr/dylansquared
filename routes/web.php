@@ -17,3 +17,4 @@ Route::get('/', function () {
 Route::get('/rsvp', function () {
     return view('pages.rsvp');
 });
+Route::post('/rsvp', 'RsvpController@store');

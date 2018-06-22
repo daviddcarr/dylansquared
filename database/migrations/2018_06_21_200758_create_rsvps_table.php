@@ -19,9 +19,7 @@ class CreateRsvpsTable extends Migration
             $table->string('email');
             $table->string('family');
             $table->boolean('guest');
-            $table->boolean('children');
             $table->integer('num_of_children');
-            $table->string('food');
             $table->timestamps();
         });
     }

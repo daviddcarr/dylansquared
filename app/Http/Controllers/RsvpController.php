@@ -4,7 +4,34 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Rsvp;
+
 class RsvpController extends Controller
 {
+    // public function index()
+    // {
+    //     return view('pages.index');
+    // }
     //
+    // public function create()
+    // {
+    //     return view('posts.create');
+    // }
+
+    public function store()
+    {
+        $this->validate(request(), [
+            'name' => 'required|max:100',
+            'email' => '',
+            'family' => 'required',
+            'guest' => '',
+            'num_of_children' => ''
+        ]);
+
+        Rsvp::create(request(['name','email','family','guest','num_of_children']));
+
+        // redirect to the home page
+
+        return redirect('/rsvp');
+    }
 }
