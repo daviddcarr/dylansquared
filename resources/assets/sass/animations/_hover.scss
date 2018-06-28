@@ -1,0 +1,94 @@
+.h-pride-hard:hover {
+    animation: prideHard 0.3s infinite;
+    & svg, svg path {
+        animation: prideHard 0.3s infinite;
+    }
+}
+.h-pride-soft:hover {
+    animation: prideSoft 1s infinite;
+    & svg, svg path {
+        animation: prideSoft 1s infinite;
+    }
+}
+
+@keyframes prideHard {
+    0% {
+        color:#E70000;
+        fill:#E70000;
+    }
+    16% {
+        color:#E70000;
+        fill:#E70000;
+    }
+    17% {
+        color:#FF8C00;
+        fill:#FF8C00;
+    }
+    33% {
+        color:#FF8C00;
+        fill:#FF8C00;
+    }
+    34% {
+        color:#FFEF00;
+        fill:#FFEF00;
+    }
+    50% {
+        color:#FFEF00;
+        fill:#FFEF00;
+    }
+    51% {
+        color:#00811F;
+        fill:#00811F;
+    }
+    66% {
+        color:#00811F;
+        fill:#00811F;
+    }
+    67% {
+        color:#00B9FF;
+        fill:#00B9FF;
+    }
+    83% {
+        color:#00B9FF;
+        fill:#00B9FF;
+    }
+    84% {
+        color:#760089;
+        fill:#760089;
+    }
+    100% {
+        color:#760089;
+        fill:#760089;
+    }
+}
+
+@keyframes prideSoft {
+    0% {
+        color:#E70000;
+        fill:#E70000;
+    }
+    16% {
+        color:#FF8C00;
+        fill:#FF8C00;
+    }
+    33% {
+        color:#FFEF00;
+        fill:#FFEF00;
+    }
+    50% {
+        color:#00811F;
+        fill:#00811F;
+    }
+    66% {
+        color:#00B9FF;
+        fill:#00B9FF;
+    }
+    83% {
+        color:#760089;
+        fill:#760089;
+    }
+    100% {
+        color:#E70000;
+        fill:#E70000;
+    }
+}

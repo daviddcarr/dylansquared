@@ -25,13 +25,14 @@ class RsvpController extends Controller
             'email' => '',
             'family' => 'required',
             'guest' => '',
-            'num_of_children' => ''
+            'num_of_children' => '',
+            'song' => ''
         ]);
 
-        Rsvp::create(request(['name','email','family','guest','num_of_children']));
+        Rsvp::create(request(['name','email','family','guest','num_of_children', 'song']));
 
         // redirect to the home page
 
-        return redirect('/rsvp');
+        return redirect('/thanks');
     }
 }

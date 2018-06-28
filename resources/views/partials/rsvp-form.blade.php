@@ -22,14 +22,43 @@
         </select>
     </div>
 
-    <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="guest" name="guest" value="1">
-        <label class="form-check-label" for="guest">Are you bringing a guest?</label>
+
+    {{-- Guests --}}
+    <div class="form-group">
+        <label class="form-check-label">Are you bringing a guest?</label>
+    </div>
+    <div class="form-group">
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="guest" id="guest1" value="yes">
+            <label class="form-check-label" for="guest1">Yes</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="guest" id="guest2" value="no" checked>
+            <label class="form-check-label" for="guest2">No</label>
+        </div>
     </div>
 
+    {{-- Children --}}
     <div class="form-group">
-        <label for="num-of-children">Number of Children?</label>
-        <input type="number" class="form-control" id="num-of-children" aria-describedby="num-of-childrenHelp" value="0" name="num_of_children">
+        <label>Number of Children?</label>
+    </div>
+    <div class="form-group">
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="num_of_children" id="num-of-children0" value="0" checked>
+            <label class="form-check-label" for="num-of-children0">0</label>
+        </div>
+        @for ($i = 1; $i <= 4; $i++)
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="num_of_children" id="num-of-children{{ $i }}" value="{{ $i }}">
+                <label class="form-check-label" for="num-of-children{{ $i }}">{{ $i }}</label>
+            </div>
+        @endfor
+    </div>
+
+
+    <div class="form-group">
+        <label for="song">Recommend a song for the reception.</label>
+        <input type="text" class="form-control" id="song" aria-describedby="songHelp" name="song" placeholder="Title - Band">
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>

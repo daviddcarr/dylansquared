@@ -16,10 +16,11 @@ class CreateRsvpsTable extends Migration
         Schema::create('rsvps', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->string('email');
+            $table->string('email')->nullable();
             $table->string('family');
-            $table->boolean('guest');
+            $table->string('guest');
             $table->integer('num_of_children');
+            $table->string('song')->nullable();
             $table->timestamps();
         });
     }

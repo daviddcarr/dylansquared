@@ -2,10 +2,14 @@
 
 @section('content')
 
-      <main role="main" class="inner cover">
-        <p class="lead">
-          <a href="/rsvp" class="btn btn-lg btn-secondary">RSVP</a>
-        </p>
-      </main>
+      <div class="contianer-fluid" id="story">
+          @include('sections.story')
+      </div>
+      <div class="container-fluid" id="gallery">
+          @include('sections.gallery')
+      </div>
+      <div class="container-fluid" id="directions">
+          @include('sections.directions')
+      </div>
 
 @endsection

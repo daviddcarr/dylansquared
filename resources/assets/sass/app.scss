@@ -3,10 +3,13 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
 // Variables
-@import "variables";
+@import "utilities/variables";
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Animations
+@import "animations/hover";
 
 .navbar-laravel {
   background-color: #fff;
