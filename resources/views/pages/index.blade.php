@@ -8,7 +8,7 @@
       <div class="container-fluid" id="gallery">
           @include('sections.gallery')
       </div>
-      <div class="container-fluid" id="directions">
+      <div class="container-fluid px-0 bg-secondary text-white" id="directions">
           @include('sections.directions')
       </div>
 

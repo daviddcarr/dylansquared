@@ -8,12 +8,9 @@
         <meta name="author" content="">
         <link rel="icon" href="../../../../favicon.ico">
 
-        <title>Cover Template for Bootstrap</title>
+        <title>The Dylans' Wedding</title>
 
-        <!-- Bootstrap core CSS -->
-        {{-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> --}}
-
-        <!-- Custom styles for this template -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700" rel="stylesheet">
         <link href="/css/app.css" rel="stylesheet">
     </head>
 
@@ -21,7 +18,7 @@
 
         @include('partials.header')
 
-        <div class="container-fluid d-flex h-100 p-3 mx-auto flex-column">
+        <div class="container-fluid px-0">
             @yield('content')
         </div>
 
