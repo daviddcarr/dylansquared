@@ -1,7 +1,85 @@
+.h-text-red {
+    transition:color 0.2s !important;
+    &:hover {
+        color:$red !important;
+    }
+}
+.h-bg-red:hover {
+    transition:color 0.2s !important;
+    &:hover {
+        background-color:$red !important;
+    }
+}
+
+.h-text-orange {
+    transition:color 0.2s !important;
+    &:hover {
+        color:$orange !important;
+    }
+}
+.h-bg-orange:hover {
+    transition:color 0.2s !important;
+    &:hover {
+        background-color:$orange !important;
+    }
+}
+
+.h-text-yellow {
+    transition:color 0.2s !important;
+    &:hover {
+        color:$yellow !important;
+    }
+}
+.h-bg-yellow:hover {
+    transition:color 0.2s !important;
+    &:hover {
+        background-color:$yellow !important;
+    }
+}
+
+.h-text-green {
+    transition:color 0.2s !important;
+    &:hover {
+        color:$green !important;
+    }
+}
+.h-bg-green:hover {
+    transition:color 0.2s !important;
+    &:hover {
+        background-color:$green !important;
+    }
+}
+
+.h-text-blue {
+    transition:color 0.2s !important;
+    &:hover {
+        color:$blue !important;
+    }
+}
+.h-bg-blue:hover {
+    transition:color 0.2s !important;
+    &:hover {
+        background-color:$blue !important;
+    }
+}
+
+.h-text-indigo {
+    transition:color 0.2s !important;
+    &:hover {
+        color:$indigo !important;
+    }
+}
+.h-bg-indigo:hover {
+    transition:color 0.2s !important;
+    &:hover {
+        background-color:$indigo !important;
+    }
+}
+
 .h-pride-hard:hover {
-    animation: prideHard 0.3s infinite;
+    animation: prideHard 1s infinite;
     & svg, svg path {
-        animation: prideHard 0.3s infinite;
+        animation: prideHard 1s infinite;
     }
 }
 .h-pride-soft:hover {
@@ -13,82 +91,82 @@
 
 @keyframes prideHard {
     0% {
-        color:#E70000;
-        fill:#E70000;
+        color:$red;
+        fill:$red;
     }
     16% {
-        color:#E70000;
-        fill:#E70000;
+        color:$red;
+        fill:$red;
     }
     17% {
-        color:#FF8C00;
-        fill:#FF8C00;
+        color:$orange;
+        fill:$orange;
     }
     33% {
-        color:#FF8C00;
-        fill:#FF8C00;
+        color:$orange;
+        fill:$orange;
     }
     34% {
-        color:#FFEF00;
-        fill:#FFEF00;
+        color:$yellow;
+        fill:$yellow;
     }
     50% {
-        color:#FFEF00;
-        fill:#FFEF00;
+        color:$yellow;
+        fill:$yellow;
     }
     51% {
-        color:#00811F;
-        fill:#00811F;
+        color:$green;
+        fill:$green;
     }
     66% {
-        color:#00811F;
-        fill:#00811F;
+        color:$green;
+        fill:$green;
     }
     67% {
-        color:#00B9FF;
-        fill:#00B9FF;
+        color:$blue;
+        fill:$blue;
     }
     83% {
-        color:#00B9FF;
-        fill:#00B9FF;
+        color:$blue;
+        fill:$blue;
     }
     84% {
-        color:#760089;
-        fill:#760089;
+        color:$indigo;
+        fill:$indigo;
     }
     100% {
-        color:#760089;
-        fill:#760089;
+        color:$indigo;
+        fill:$indigo;
     }
 }
 
 @keyframes prideSoft {
     0% {
-        color:#E70000;
-        fill:#E70000;
+        color:$red;
+        fill:$red;
     }
     16% {
-        color:#FF8C00;
-        fill:#FF8C00;
+        color:$orange;
+        fill:$orange;
     }
     33% {
-        color:#FFEF00;
-        fill:#FFEF00;
+        color:$yellow;
+        fill:$yellow;
     }
     50% {
-        color:#00811F;
-        fill:#00811F;
+        color:$green;
+        fill:$green;
     }
     66% {
-        color:#00B9FF;
-        fill:#00B9FF;
+        color:$blue;
+        fill:$blue;
     }
     83% {
-        color:#760089;
-        fill:#760089;
+        color:$indigo;
+        fill:$indigo;
     }
     100% {
-        color:#E70000;
-        fill:#E70000;
+        color:$red;
+        fill:$red;
     }
 }

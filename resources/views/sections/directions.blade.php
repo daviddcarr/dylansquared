@@ -2,8 +2,8 @@
     <div class="row py-4 align-items-center">
         <div class="col-12 col-md-8">
             <h3>Anthony Chapel</h3>
-            <p>5760 Daniel Rd.</p>
-            <p>Plano, Texas 75024</p>
+            <p class="mb-0">550 Arkridge Rd</p>
+            <p>Hot Springs National Park, AR 71913</p>
         </div>
         <div class="col-12 col-md-4">
             <img src="/images/chapel-exterior.jpg" class="w-100" />

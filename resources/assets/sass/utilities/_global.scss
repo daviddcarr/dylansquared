@@ -1,0 +1,13 @@
+// Misc
+.fill {
+    height:100%;
+    min-height: 100%;
+}
+
+// Change this to something more fitting of the website's design.
+.outline-none {
+    outline:0;
+    &:focus {
+        outline:0;
+    }
+}

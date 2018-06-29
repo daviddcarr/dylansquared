@@ -2,6 +2,10 @@
 
 @section('content')
 
+    <div class="nav-item">
+        <a href="/rsvp" class="btn btn-lg btn-primary">RSVP</a>
+    </div>
+
       <div class="contianer-fluid" id="story">
           @include('sections.story')
       </div>
