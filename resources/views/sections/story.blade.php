@@ -6,7 +6,7 @@
         <div class="col-12 col-md-7 text-center text-md-right">
             <h2 class="mb-3">The Story</h2>
             <p>
-                <span class="dylan-selby" data-toggle="tooltip" data-placement="top" title="David Dylan Carr">Dylan</span> and <span class="dylan-carr" data-toggle="tooltip" data-placement="top" title="Dylan C Selby">Dylan</span> had gone to Lamar High School and the University of Arkansas at Little Rock (UALR) together. During that time they mostly knew of each other but weren't yet close.
+                <span class="dylan-selby" data-toggle="tooltip" data-placement="top" title="Dylan C Selby">Dylan</span> and <span class="dylan-carr red-tooltip" data-toggle="tooltip" data-placement="top" title="David 'Dylan' Carr">Dylan</span> had gone to Lamar High School and the University of Arkansas at Little Rock (UALR) together. During that time they mostly knew of each other but weren't yet close.
             </p>
             <p>
                 Being the only two students from Lamar attending UALR they kept in touch with one another. It wasn't until August of 2011 that it all changed:

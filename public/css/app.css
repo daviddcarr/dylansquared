@@ -6317,7 +6317,7 @@ button.close {
 .bs-tooltip-auto[x-placement^="top"] .arrow::before {
   top: 0;
   border-width: 0.4rem 0.4rem 0;
-  border-top-color: #000;
+  border-top-color: #5469b1;
 }
 
 .bs-tooltip-right,
@@ -6336,7 +6336,7 @@ button.close {
 .bs-tooltip-auto[x-placement^="right"] .arrow::before {
   right: 0;
   border-width: 0.4rem 0.4rem 0.4rem 0;
-  border-right-color: #000;
+  border-right-color: #5469b1;
 }
 
 .bs-tooltip-bottom,
@@ -6353,7 +6353,7 @@ button.close {
 .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
   bottom: 0;
   border-width: 0 0.4rem 0.4rem;
-  border-bottom-color: #000;
+  border-bottom-color: #5469b1;
 }
 
 .bs-tooltip-left,
@@ -6372,7 +6372,7 @@ button.close {
 .bs-tooltip-auto[x-placement^="left"] .arrow::before {
   left: 0;
   border-width: 0.4rem 0 0.4rem 0.4rem;
-  border-left-color: #000;
+  border-left-color: #5469b1;
 }
 
 .tooltip-inner {
@@ -6380,7 +6380,7 @@ button.close {
   padding: 0.25rem 0.5rem;
   color: #fff;
   text-align: center;
-  background-color: #000;
+  background-color: #5469b1;
   border-radius: 0.25rem;
 }
 
@@ -10780,6 +10780,10 @@ hr.rainbow {
   background-color: #ee5554;
   background: -webkit-gradient(linear, left top, right top, from(#ee5554), color-stop(16%, #ee5554), color-stop(17%, #ffc615), color-stop(33%, #ffc615), color-stop(34%, #f6db37), color-stop(50%, #f6db37), color-stop(51%, #3b8d42), color-stop(66%, #3b8d42), color-stop(67%, #5f8dc9), color-stop(83%, #5f8dc9), color-stop(84%, #5469b1), to(#5469b1));
   background: linear-gradient(to right, #ee5554 0%, #ee5554 16%, #ffc615 17%, #ffc615 33%, #f6db37 34%, #f6db37 50%, #3b8d42 51%, #3b8d42 66%, #5f8dc9 67%, #5f8dc9 83%, #5469b1 84%, #5469b1 100%);
+}
+
+.red-tooltip .tooltip-inner {
+  background-color: #f00;
 }
 
 p,
