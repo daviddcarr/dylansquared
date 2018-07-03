@@ -12,6 +12,8 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
+    .js('resources/assets/js/main.js', 'public/js')
+    .js('resources/assets/js/bootstrap.js', 'public/js')
 
     //Images
     .copy('resources/assets/images/**/*', 'public/images')

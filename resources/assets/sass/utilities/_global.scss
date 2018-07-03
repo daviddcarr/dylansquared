@@ -11,3 +11,26 @@
         outline:0;
     }
 }
+
+.dylan-selby {
+    box-shadow:inset 0 -0.625rem 0 rgba($blue,.25);
+}
+.dylan-carr {
+    box-shadow:inset 0 -0.625rem 0 rgba($red,.25);
+}
+
+.rainbow-horizontal {
+    background-color: #ee5554;
+    background: linear-gradient(to right, $red 0%,$red 16%,$orange 17%,$orange 33%,$yellow 34%,$yellow 50%,$green 51%,$green 66%,$blue 67%,$blue 83%,$indigo 84%,$indigo 100%);
+}
+.raindbow-vertical {
+    background-color: #ee5554;
+    background: linear-gradient(to bottom, $red 0%,$red 16%,$orange 17%,$orange 33%,$yellow 34%,$yellow 50%,$green 51%,$green 66%,$blue 67%,$blue 83%,$indigo 84%,$indigo 100%);
+}
+hr.rainbow {
+    border-top:0px;
+    height:2px;
+
+    background-color: #ee5554;
+    background: linear-gradient(to right, $red 0%,$red 16%,$orange 17%,$orange 33%,$yellow 34%,$yellow 50%,$green 51%,$green 66%,$blue 67%,$blue 83%,$indigo 84%,$indigo 100%);
+}

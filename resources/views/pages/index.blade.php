@@ -6,6 +6,9 @@
         <a href="/rsvp" class="btn btn-lg btn-primary">RSVP</a>
     </div>
 
+      <div class="contianer-fluid" id="Intro">
+          @include('sections.intro')
+      </div>
       <div class="contianer-fluid" id="story">
           @include('sections.story')
       </div>

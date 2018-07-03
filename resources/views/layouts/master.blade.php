@@ -10,6 +10,9 @@
 
         <title>The Dylans' Wedding</title>
 
+        <script src="/js/bootstrap.js"></script>
+        <script src="/js/main.js"></script>
+
         <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700" rel="stylesheet">
         <link href="/css/app.css" rel="stylesheet">
     </head>

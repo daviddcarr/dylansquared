@@ -1,8 +1,11 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
+    "/js/bootstrap.js": "/js/bootstrap.js",
+    "/js/main.js": "/js/main.js",
     "/images/chapel-exterior.jpg": "/images/chapel-exterior.jpg",
     "/images/chapel-interior.jpg": "/images/chapel-interior.jpg",
     "/images/couple_sketch.jpg": "/images/couple_sketch.jpg",
+    "/images/first-chat.png": "/images/first-chat.png",
     "/images/logo.svg": "/images/logo.svg"
 }

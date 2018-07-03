@@ -10752,6 +10752,36 @@ a.text-dark:focus {
   outline: 0;
 }
 
+.dylan-selby {
+  -webkit-box-shadow: inset 0 -0.625rem 0 rgba(95, 141, 201, 0.25);
+          box-shadow: inset 0 -0.625rem 0 rgba(95, 141, 201, 0.25);
+}
+
+.dylan-carr {
+  -webkit-box-shadow: inset 0 -0.625rem 0 rgba(238, 85, 84, 0.25);
+          box-shadow: inset 0 -0.625rem 0 rgba(238, 85, 84, 0.25);
+}
+
+.rainbow-horizontal {
+  background-color: #ee5554;
+  background: -webkit-gradient(linear, left top, right top, from(#ee5554), color-stop(16%, #ee5554), color-stop(17%, #ffc615), color-stop(33%, #ffc615), color-stop(34%, #f6db37), color-stop(50%, #f6db37), color-stop(51%, #3b8d42), color-stop(66%, #3b8d42), color-stop(67%, #5f8dc9), color-stop(83%, #5f8dc9), color-stop(84%, #5469b1), to(#5469b1));
+  background: linear-gradient(to right, #ee5554 0%, #ee5554 16%, #ffc615 17%, #ffc615 33%, #f6db37 34%, #f6db37 50%, #3b8d42 51%, #3b8d42 66%, #5f8dc9 67%, #5f8dc9 83%, #5469b1 84%, #5469b1 100%);
+}
+
+.raindbow-vertical {
+  background-color: #ee5554;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ee5554), color-stop(16%, #ee5554), color-stop(17%, #ffc615), color-stop(33%, #ffc615), color-stop(34%, #f6db37), color-stop(50%, #f6db37), color-stop(51%, #3b8d42), color-stop(66%, #3b8d42), color-stop(67%, #5f8dc9), color-stop(83%, #5f8dc9), color-stop(84%, #5469b1), to(#5469b1));
+  background: linear-gradient(to bottom, #ee5554 0%, #ee5554 16%, #ffc615 17%, #ffc615 33%, #f6db37 34%, #f6db37 50%, #3b8d42 51%, #3b8d42 66%, #5f8dc9 67%, #5f8dc9 83%, #5469b1 84%, #5469b1 100%);
+}
+
+hr.rainbow {
+  border-top: 0px;
+  height: 2px;
+  background-color: #ee5554;
+  background: -webkit-gradient(linear, left top, right top, from(#ee5554), color-stop(16%, #ee5554), color-stop(17%, #ffc615), color-stop(33%, #ffc615), color-stop(34%, #f6db37), color-stop(50%, #f6db37), color-stop(51%, #3b8d42), color-stop(66%, #3b8d42), color-stop(67%, #5f8dc9), color-stop(83%, #5f8dc9), color-stop(84%, #5469b1), to(#5469b1));
+  background: linear-gradient(to right, #ee5554 0%, #ee5554 16%, #ffc615 17%, #ffc615 33%, #f6db37 34%, #f6db37 50%, #3b8d42 51%, #3b8d42 66%, #5f8dc9 67%, #5f8dc9 83%, #5469b1 84%, #5469b1 100%);
+}
+
 p,
 span,
 a,
