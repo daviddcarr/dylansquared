@@ -6,6 +6,8 @@
 @import "utilities/variables";
 
 // Bootstrap
+@import "node_modules/bootstrap/scss/functions";
+@import "utilities/bootstrap";
 @import "node_modules/bootstrap/scss/bootstrap";
 
 // Animations

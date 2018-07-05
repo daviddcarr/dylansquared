@@ -19,6 +19,30 @@
     box-shadow:inset 0 -0.625rem 0 rgba($red,.25);
 }
 
+// BG Colors
+
+
+.bg-red {
+    background-color:$red;
+}
+.bg-orange {
+    background-color:$orange;
+}
+.bg-yellow {
+    background-color:$yellow;
+}
+.bg-green {
+    background-color:$green;
+}
+.bg-blue {
+    background-color:$blue;
+}
+.bg-indigo {
+    background-color:$indigo;
+}
+
+// Rainbows
+
 .rainbow-horizontal {
     background-color: #ee5554;
     background: linear-gradient(to right, $red 0%,$red 16%,$orange 17%,$orange 33%,$yellow 34%,$yellow 50%,$green 51%,$green 66%,$blue 67%,$blue 83%,$indigo 84%,$indigo 100%);
