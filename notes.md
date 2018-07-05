@@ -39,3 +39,7 @@ Things I'm considering:
 #### RSVP Table
 
 ID | Name | Which Groom | Bringing a Guest? | Bringing Children? | How many Children | Date Created
+
+
+Sudo Password: HIusAscBCxlbIkF2sEjR
+DB Passwor: dTUU1LCWivCqtiWiYtf6
