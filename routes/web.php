@@ -20,8 +20,5 @@ Route::get('/rsvp', function () {
 Route::get('/thanks', function() {
     return view('pages.thanks');
 });
-Route::get('/privacy-policy', function() {
-    return view('pages.privacy');
-});
 
 Route::post('/rsvp', 'RsvpController@store');
