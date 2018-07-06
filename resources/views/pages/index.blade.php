@@ -18,7 +18,7 @@
       <div class="container-fluid px-0 bg-secondary text-white" id="directions">
           @include('sections.directions')
       </div>
-      <div class="container-fluid" id="gallery">
+      <div class="container-fluid" id="faqs">
           @include('sections.faqs')
       </div>
 

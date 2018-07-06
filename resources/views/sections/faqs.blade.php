@@ -91,7 +91,22 @@
         </div>
         <div class="col-12 col-md-7">
             <p>
-                Typical wedding dress code, no t-shirts or flip-flops please.
+                Typical wedding dress code: no t-shirts, flip-flops or anything of the sort. Dress to impress!
+            </p>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="row align-items-center">
+        <div class="col-12 col-md-5">
+            <p>
+                <strong>What will the grooms be wearing?</strong>
+            </p>
+        </div>
+        <div class="col-12 col-md-7">
+            <p>
+                Most likely white tuxedos. <span class="dylan-carr">Dylan C</span> will have red accents and <span class="dylan-selby">Dylan S</span> will have blue.
             </p>
         </div>
     </div>
@@ -107,6 +122,60 @@
         <div class="col-12 col-md-7">
             <p>
                 You do you.
+            </p>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="row align-items-center">
+        <div class="col-12 col-md-5">
+            <p>
+                <strong>What will the officiant say when it's time to kiss?</strong>
+            </p>
+        </div>
+        <div class="col-12 col-md-7">
+            <p>
+                "You may kiss your husband." or something along those lines. What else would they say?
+            </p>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="row align-items-center">
+        <div class="col-12 col-md-5">
+            <p>
+                <strong>Who carries whom over the threshold?</strong>
+            </p>
+        </div>
+        <div class="col-12 col-md-7">
+            <p>
+                They'll defy physics and carry each other.
+            </p>
+        </div>
+    </div>
+    <hr />
+
+    <div class="row align-items-center">
+        <div class="col-12 col-md-5">
+            <p>
+                <strong>Will there be a drag show?</strong>
+            </p>
+        </div>
+        <div class="col-12 col-md-7">
+            <p>
+                I wish! But highly unlikely.
+            </p>
+        </div>
+    </div>
+
+    <hr  />
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-5">
+            <p>
+                Have more questions? This <a href="https://www.youtube.com/watch?v=rtgY1q0J_TQ" target="_blank">Key and Peele skit</a> should clear a few of them up. Otherwise, just ask a groom before the day of the wedding.
             </p>
         </div>
     </div>

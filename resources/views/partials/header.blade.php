@@ -24,6 +24,9 @@
                     <li class="nav-item">
                         <a class="nav-link h-text-indigo" href="/#directions">Directions</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link h-text-indigo" href="/#faqs">FAQs</a>
+                    </li>
                 </ul>
             </div>
 
