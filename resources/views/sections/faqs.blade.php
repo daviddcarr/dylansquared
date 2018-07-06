@@ -56,6 +56,21 @@
     <div class="row align-items-center">
         <div class="col-12 col-md-5">
             <p>
+                <strong>What will the officiant say when it's time to kiss?</strong>
+            </p>
+        </div>
+        <div class="col-12 col-md-7">
+            <p>
+                "You may kiss your husband." or something along those lines. What else would they say?
+            </p>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="row align-items-center">
+        <div class="col-12 col-md-5">
+            <p>
                 <strong>Who's taking whose name?</strong>
             </p>
         </div>
@@ -122,21 +137,6 @@
         <div class="col-12 col-md-7">
             <p>
                 You do you.
-            </p>
-        </div>
-    </div>
-
-    <hr />
-
-    <div class="row align-items-center">
-        <div class="col-12 col-md-5">
-            <p>
-                <strong>What will the officiant say when it's time to kiss?</strong>
-            </p>
-        </div>
-        <div class="col-12 col-md-7">
-            <p>
-                "You may kiss your husband." or something along those lines. What else would they say?
             </p>
         </div>
     </div>
