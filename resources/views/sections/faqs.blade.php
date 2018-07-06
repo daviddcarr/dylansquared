@@ -76,7 +76,7 @@
         </div>
         <div class="col-12 col-md-7">
             <p>
-                The grooms have decided to keep their names but add the other's.
+                The grooms have decided to keep their names. Easy peasy.
             </p>
         </div>
     </div>
@@ -91,7 +91,7 @@
         </div>
         <div class="col-12 col-md-7">
             <p>
-                There likely won't be a boquet toss, if so, they'll do it together.
+                There likely won't be a bouquet toss, if so, they'll do it together.
             </p>
         </div>
     </div>

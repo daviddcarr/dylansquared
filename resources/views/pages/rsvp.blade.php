@@ -11,4 +11,7 @@
         </div>
     </div>
 </div>
+<div class="container-fluid px-0 bg-secondary text-white" id="directions">
+    @include('sections.directions')
+</div>
 @endsection

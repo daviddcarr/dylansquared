@@ -22,7 +22,7 @@
                         <a class="nav-link h-text-green" href="/#gallery">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link h-text-indigo" href="/#directions">Directions</a>
+                        <a class="nav-link h-text-blue" href="/#directions">Directions</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h-text-indigo" href="/#faqs">FAQs</a>

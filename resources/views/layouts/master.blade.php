@@ -10,7 +10,7 @@
 
         <title>The Dylans' Wedding</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700&Material+Icons" rel="stylesheet">
         <link href="/css/app.css" rel="stylesheet">
     </head>
 

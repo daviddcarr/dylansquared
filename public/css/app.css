@@ -10967,6 +10967,30 @@ hr.rainbow {
   background: linear-gradient(to right, #ee5554 0%, #ee5554 16%, #ffc615 17%, #ffc615 33%, #f6db37 34%, #f6db37 50%, #3b8d42 51%, #3b8d42 66%, #5f8dc9 67%, #5f8dc9 83%, #5469b1 84%, #5469b1 100%);
 }
 
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  -webkit-font-feature-settings: 'liga';
+          font-feature-settings: 'liga';
+}
+
 p,
 span,
 a,

@@ -60,7 +60,7 @@
             </p>
         </div>
         <div class="col-12 col-md-5">
-            <img src="/images/the-shard.jpg" class="w-100" data-toggle="tooltip" data-placement="top" title="The Shard, Tallest building in the UK"/>
+            <img src="/images/the-shard.jpg" class="w-100" data-toggle="tooltip" data-placement="top" title="The Shard"/>
         </div>
     </div>
     <div class="row justify-content-center">
