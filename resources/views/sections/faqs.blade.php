@@ -181,22 +181,3 @@
     </div>
 
 </div>
-
-
-
-{{--
-
-When in the ceremony will we be singing 'Over the Rainbow'?
-Can we see the Pony show from the straight section?
-When do we sing YMCA? - Not during the ceremony
-Where do you get the Euros to buy gay gifts? You wouldn't use Euros...
-
-
-Do we throw something other than rice?
-What would you throw other than rice?
-Idk... uh couscous err skittles
-
-is RuPaul gonna be there?
-Niel Patrick Harris?
-
---}}
