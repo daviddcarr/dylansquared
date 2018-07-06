@@ -76,7 +76,7 @@
         </div>
         <div class="col-12 col-md-7">
             <p>
-                There likely won't be a boquet toss, if so, they'll likely do it together.
+                There likely won't be a boquet toss, if so, they'll do it together.
             </p>
         </div>
     </div>

@@ -18,6 +18,12 @@ class RsvpController extends Controller
     //     return view('posts.create');
     // }
 
+    public function show() {
+        $rsvps = Rsvp::get();
+
+        return view('pages.admin', compact('rsvps'));
+    }
+
     public function store()
     {
         $this->validate(request(), [
