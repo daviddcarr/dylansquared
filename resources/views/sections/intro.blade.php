@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row py-4 justify-content-center align-items-center">
         <div class="col-12 col-md-6">
-            <img src="images/couple_sketch.jpg" class="w-100" />
+            <img src="images/couple_sketch.png" class="w-100" />
         </div>
         <div class="col-12 col-md-6 text-center text-md-left">
             <h1 class="mb-3">Join us in celebration of life and love!</h1>

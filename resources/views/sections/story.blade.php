@@ -20,12 +20,13 @@
             </p>
         </div>
         <div class="col-12 col-md-5">
-            <img src="http://via.placeholder.com/350x450" class="w-100" />
+            <img src="images/first-selfie.jpg" class="w-100 mb-3" data-toggle="tooltip" data-placement="top" title="So young!"/>
+            <img src="images/selfie-france.jpg" class="w-100" />
         </div>
     </div>
     <div class="row align-items-center py-3">
         <div class="col-12 col-md-5 order-2 order-md-1">
-            <img src="http://via.placeholder.com/350x250" class="w-100" />
+            <img src="images/dallas-skyline.jpg" class="w-100" data-toggle="tooltip" data-placement="top" title="Dallas y'all"/>
         </div>
         <div class="col-12 col-md-7 text-center text-md-left order-1 order-md-2">
             <p>
