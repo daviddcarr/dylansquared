@@ -20,6 +20,7 @@ Route::get('/rsvp', function () {
 Route::get('/thanks', function() {
     return view('pages.thanks');
 });
+
 Route::get('/admin', 'RsvpController@show');
 
 Route::post('/rsvp', 'RsvpController@store');
