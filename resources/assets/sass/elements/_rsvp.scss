@@ -1,0 +1,37 @@
+#rsvp-form {
+
+
+    form {
+        .form-group {
+
+
+            // Radio Buttons
+            input[type*="radio"] {
+                display:none;
+            }
+            input[type*="radio"]:checked + label {
+                color:white;
+                border:1px solid $red;
+                background-color: $red;
+            }
+            input[type*="radio"] + label {
+                border-radius: 50%;
+                border:1px solid black;
+                cursor: pointer;
+                &.small-circle {
+                    height:28px;
+                    width:28px;
+                }
+                &.large-circle {
+                    height:40px;
+                    width:40px;
+                    line-height: 40px;
+                }
+            }
+
+        }
+    }
+
+
+
+}

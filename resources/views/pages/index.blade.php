@@ -2,9 +2,9 @@
 
 @section('content')
 
-    <div class="nav-item">
+    {{-- <div class="nav-item">
         <a href="/rsvp" class="btn btn-lg btn-primary">RSVP</a>
-    </div>
+    </div> --}}
 
     <div class="contianer-fluid" id="Intro">
         @include('sections.intro')

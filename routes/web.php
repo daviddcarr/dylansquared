@@ -14,12 +14,6 @@
 Route::get('/', function () {
     return view('pages.index');
 });
-Route::get('/rsvp', function () {
-    return view('pages.rsvp');
-});
-Route::get('/thanks', function() {
-    return view('pages.thanks');
-});
 
 Route::get('/admin', 'RsvpController@show');
 
