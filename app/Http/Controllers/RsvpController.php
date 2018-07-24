@@ -39,7 +39,7 @@ class RsvpController extends Controller
 
         // redirect to the home page
 
-        // return redirect('/thanks');
+        return redirect('/thanks');
         //return ['message' => 'RSVP Submitted!'];
     }
 }
