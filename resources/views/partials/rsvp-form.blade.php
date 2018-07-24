@@ -21,9 +21,9 @@
                         placeholder="Enter Name"
                         name="name"
                         v-model="name">
+                    <span class="small text-danger" v-if="errors.has('name')" v-text="errors.get('name')"></span>
                 </div>
 
-                <span class="small text-danger" v-if="errors.has('name')" v-text="errors.get('name')"></span>
             </div>
 
             <div class="form-group row">
@@ -59,8 +59,8 @@
                             <option value="carr">Carr</option>
                             <option value="both">Love You Both!</option>
                     </select>
+                    <span class="small text-danger" v-if="errors.has('family')" v-text="errors.get('family')"></span>
                 </div>
-                <span class="small text-danger" v-if="errors.has('family')" v-text="errors.get('family')"></span>
             </div>
 
             <div class="row">
