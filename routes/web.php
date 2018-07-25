@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/admin', 'RsvpController@show');
 
 Route::post('/rsvp', 'RsvpController@store');
+
+Route::get('/delete/{rsvp}', 'RsvpController@delete');

@@ -4,6 +4,30 @@
 
     <div class="container py-4">
         @if ($rsvps)
+
+            <div class="modals">
+
+                @foreach ($rsvps as $rsvp)
+                    <div class="modal fade" id="deleteModal{{ $rsvp->id }}" tabindex="-1" role="dialog" aria-labelledby="deleteModalTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Are you sure you want to delete this?</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <a href="/delete/{{ $rsvp->id }}" class="btn btn-primary">Delete</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                @endforeach
+
+            </div>
+
             <table class="w-100 border mb-3">
                 <tr class="border">
                     <td class="border">
@@ -23,6 +47,9 @@
                     </td>
                     <td class="border">
                         <strong>Song</strong>
+                    </td>
+                    <td class="border">
+
                     </td>
                 </tr>
                 @foreach ($rsvps as $rsvp)
@@ -44,6 +71,14 @@
                         </td>
                         <td class="border">
                             {{ $rsvp->song }}
+                        </td>
+                        <td class="border">
+                            <button class="btn d-flex align-items-center m-auto" data-toggle="modal" data-target="#deleteModal{{ $rsvp->id }}">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="red">
+                                    <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/>
+                                    <path d="M0 0h24v24H0z" fill="none"/>
+                                </svg>
+                            </button>
                         </td>
                     </tr>
                 @endforeach

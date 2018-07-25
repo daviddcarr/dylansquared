@@ -42,4 +42,13 @@ class RsvpController extends Controller
         // return redirect('/thanks');
         //return ['message' => 'RSVP Submitted!'];
     }
+
+    public function delete(Rsvp $rsvp) {
+
+        // Delete the corresponding post and return to the admin page.
+        Rsvp::where('id', $rsvp['id'])->delete();
+
+        return redirect('/admin');
+
+    }
 }
