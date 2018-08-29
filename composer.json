@@ -1,7 +1,10 @@
 {
     "name": "laravel/laravel",
     "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
     "license": "MIT",
     "type": "project",
     "require": {
@@ -9,7 +12,9 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.6.*",
         "laravel/tinker": "^1.0",
-        "pgrimaud/instagram-user-feed": "^5.0"
+        "laravel/nova": "*",
+        "pgrimaud/instagram-user-feed": "^5.0",
+        "dsquared/children-total": "*"
     },
     "require-dev": {
         "filp/whoops": "^2.0",
@@ -34,8 +39,7 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": [
-            ]
+            "dont-discover": []
         }
     },
     "scripts": {
@@ -56,5 +60,15 @@
         "optimize-autoloader": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./nova"
+        },
+        {
+            "type": "path",
+            "url": "./nova-components/ChildrenTotal"
+        }
+    ]
 }

@@ -2,9 +2,9 @@
 
 namespace App;
 
-//use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
 
 class Rsvp extends Model
 {
-    //
+    public $guarded = [];
 }
