@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Rsvp extends Model
+class RsvpPasswords extends Model
 {
-    protected $guarded = [];
+    //
 }

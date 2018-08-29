@@ -45,14 +45,14 @@ class Errors {
     }
 
     any() {
-        console.log("any?");
+        // console.log("any?");
         for (var field in this.errors) {
             if (this.errors[field].length > 0) {
-                console.log("so true");
+                // console.log("so true");
                 return true;
             }
         }
-        console.log("nope");
+        // console.log("nope");
         return false;
     }
 }
