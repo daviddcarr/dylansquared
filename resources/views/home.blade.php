@@ -137,20 +137,6 @@
                             </div>
                         @endif
 
-                        <form method="POST" action="/newPassword" class="mt-5">
-                            {{ csrf_field() }}
-                            <div class="row">
-                                <div class="col-12 col-md-8">
-                                    <div class="form-group">
-                                      <input type="password" class="form-control" id="password" name="password" placeholder="Password">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-4">
-                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                </div>
-                            </div>
-                        </form>
-
 
                     </div>
 
@@ -158,6 +144,116 @@
                 </div>
             </div>
         </div>
+
+        <div class="col-md-12 mt-5">
+            <div class="card">
+                <div class="card-header">Passwords</div>
+                <div class="card-body">
+                    <form method="POST" action="/newPassword">
+                        {{ csrf_field() }}
+                        <div class="row">
+                            <div class="col-12 col-md-8">
+                                <div class="form-group">
+                                  <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+            <div class="card">
+                <div class="card-header">Participants</div>
+                <div class="card-body">
+                    <form method="POST" action="/newParty">
+                        {{ csrf_field() }}
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group row">
+                                    <label for="name" class="col-12 col-md-3">Name</label>
+                                    <div class="col-12 col-md-9">
+                                        <input type="text" name="name" class="form-control slug-source" id="name" placeholder="Enter name">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="slug" class="col-12 col-md-3">Slug</label>
+                                    <div class="col-12 col-md-9">
+                                        <input type="text" name="slug" class="form-control slug-output" id="slug" placeholder="Enter URL slug" value="">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="photo" class="col-12 col-md-3">Photo URL</label>
+                                    <div class="col-12 col-md-9">
+                                        <input type="text" name="photo" class="form-control" id="photo" placeholder="Enter photo URL">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="location" class="col-12 col-md-3">Location</label>
+                                    <div class="col-12 col-md-9">
+                                        <input type="text" name="location" class="form-control" id="location" placeholder="Enter location">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="role" class="col-12 col-md-3">Select Role:</label>
+                                    <div class="col-12 col-md-9">
+                                        <select class="form-control" id="role" name="role">
+                                              <option>Groomsman</option>
+                                              <option>Parent</option>
+                                              <option>Sibling</option>
+                                              <option>Officiant</option>
+                                              <option>Bouncer</option>
+                                              <option>Ring Bearer</option>
+                                              <option>Flower Girl/Boy</option>
+                                              <option>Photographer</option>
+                                              <option>Planner</option>
+                                              <option>Caterer</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="groom" class="col-12 col-md-3">Select Family:</label>
+                                    <div class="col-12 col-md-9">
+                                        <select class="form-control" id="groom" name="groom">
+                                              <option>Selby</option>
+                                              <option>Carr</option>
+                                              <option>Both</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="url" class="col-12 col-md-3">URL</label>
+                                    <div class="col-12 col-md-9">
+                                        <input type="text" name="url" class="form-control" id="url" placeholder="Enter URL">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="about" class="col-12 col-md-3">URL</label>
+                                    <div class="col-12 col-md-9">
+                                        <textarea name="about" class="form-control" id="about" placeholder="About this participant"></textarea>
+                                    </div>
+                                </div>
+                                <input type="submit" value="Submit" class="btn btn-primary" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+{{--
+        <div class="col-md-12 mt-5">
+            <div class="card">
+                <div class="card-header">Title</div>
+                <div class="card-body">
+
+                </div>
+            </div>
+        </div> --}}
+
     </div>
 </div>
 @endsection

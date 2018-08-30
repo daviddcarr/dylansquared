@@ -74,6 +74,11 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+        @include('partials.footer')
+
+        @include('partials.footer-links')
+
     </div>
 </body>
 </html>

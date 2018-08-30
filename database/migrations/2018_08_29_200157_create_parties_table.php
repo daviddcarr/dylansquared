@@ -19,8 +19,10 @@ class CreatePartiesTable extends Migration
             $table->string('name');
             $table->string('photo')->nullable();
             $table->string('location')->nullable();
-            $table->string('groom');
+            $table->string('role');
+            $table->string('groom')->nullable();
             $table->string('about');
+            $table->string('url')->nullable();
             $table->timestamps();
         });
     }

@@ -27,6 +27,8 @@ Route::post('/password', 'RsvpPasswordsController@checkPassword');
 
 Route::post('/newPassword', 'RsvpPasswordsController@store');
 
+Route::post('/newParty', 'PartyController@store');
+
 Auth::routes();
 
 Route::get('/admin', 'HomeController@index')->name('home');
