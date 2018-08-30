@@ -18,6 +18,10 @@ class RsvpController extends Controller
     //     return view('posts.create');
     // }
 
+    // public function __construct() {
+    //     $this->middleware('auth')->only(['store'])
+    // }
+
     public function show() {
         $rsvps = Rsvp::get();
 

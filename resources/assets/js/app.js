@@ -14,11 +14,6 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-// Vue.component('example-component', require('./components/ExampleComponent.vue'));
-//
-// const app = new Vue({
-//     el: '#app'
-// });
 
 class Errors {
     constructor() {
@@ -45,14 +40,11 @@ class Errors {
     }
 
     any() {
-        // console.log("any?");
         for (var field in this.errors) {
             if (this.errors[field].length > 0) {
-                // console.log("so true");
                 return true;
             }
         }
-        // console.log("nope");
         return false;
     }
 }
@@ -68,6 +60,9 @@ new Vue({
         num_of_children: '0',
         song: '',
         successful: false,
+        password: '',
+        hasPassword: false,
+        incorrectPassword: false,
         errors: new Errors()
     },
 
@@ -80,6 +75,22 @@ new Vue({
                 .catch(error => {
                     this.errors.record(error.response.data.errors);
                 });
+        },
+        checkPassword() {
+            axios.post('/password', {
+                password: this.password
+            })
+            .then(response => {
+                console.log(response.data);
+                if(response.data) {
+                    this.hasPassword = true;
+                    this.incorrectPassword = false;
+                } else {
+                    this.incorrectPassword = true;
+                }
+            }).catch(error => {
+                console.log(error);
+            })
         }
     }
 });

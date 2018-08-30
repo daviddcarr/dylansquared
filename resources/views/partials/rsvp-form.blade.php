@@ -3,7 +3,37 @@
     <transition name="fade"
                 mode="out-in">
 
-        <form  method="POST" action="/rsvp" @submit.prevent="onSubmit" @keydown="errors.clear($event.target.name)" v-if="!successful">
+        <form @submit.prevent="checkPassword" v-if="!hasPassword">
+            {{ csrf_field() }}
+
+            <h2>RSVP</h2>
+
+            <div class="form-group row justify-content-center">
+                <label
+                    for="password"
+                    class="col-sm-3 col-form-label text-center">Password</label>
+                <div class="col-sm-10">
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="password"
+                        aria-describedby="passwordHelp"
+                        placeholder="Enter Password"
+                        name="password"
+                        v-model="password">
+                    <span class="small d-block text-center text-danger" v-if="incorrectPassword">Incorrect Password</span>
+                    <span class="small d-block text-center text-gray">Your RSVP card includes a password, use it here</span>
+                </div>
+
+            </div>
+
+            <button
+                type="submit"
+                class="btn btn-primary">Submit</button>
+
+        </form>
+
+        <form @submit.prevent="onSubmit" @keydown="errors.clear($event.target.name)" v-if="!successful && hasPassword">
             {{ csrf_field() }}
 
             <h2>RSVP</h2>
@@ -148,7 +178,7 @@
             @include('partials.errors')
         </form>
 
-        <div class="w-100" v-if="successful">
+        <div class="w-100" v-if="successful && hasPassword">
             <div class="content">
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-8 col-xl-6">

@@ -15,10 +15,18 @@ Route::get('/', function () {
     return view('pages.index');
 });
 
-Route::get('/admin', 'RsvpController@show');
+// Route::get('/admin', 'RsvpController@show');
 
 Route::post('/rsvp', 'RsvpController@store');
 
 Route::get('/delete/{rsvp}', 'RsvpController@delete');
 
 Route::get('/party/{slug}', 'PartyController@show');
+
+Route::post('/password', 'RsvpPasswordsController@checkPassword');
+
+Route::post('/newPassword', 'RsvpPasswordsController@store');
+
+Auth::routes();
+
+Route::get('/admin', 'HomeController@index')->name('home');

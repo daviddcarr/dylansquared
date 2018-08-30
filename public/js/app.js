@@ -35917,12 +35917,6 @@ window.Vue = __webpack_require__(36);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-// Vue.component('example-component', require('./components/ExampleComponent.vue'));
-//
-// const app = new Vue({
-//     el: '#app'
-// });
-
 var Errors = function () {
     function Errors() {
         _classCallCheck(this, Errors);
@@ -35956,14 +35950,11 @@ var Errors = function () {
     }, {
         key: 'any',
         value: function any() {
-            console.log("any?");
             for (var field in this.errors) {
                 if (this.errors[field].length > 0) {
-                    console.log("so true");
                     return true;
                 }
             }
-            console.log("nope");
             return false;
         }
     }]);
@@ -35982,6 +35973,9 @@ new Vue({
         num_of_children: '0',
         song: '',
         successful: false,
+        password: '',
+        hasPassword: false,
+        incorrectPassword: false,
         errors: new Errors()
     },
 
@@ -35993,6 +35987,23 @@ new Vue({
                 _this.successful = true;
             }).catch(function (error) {
                 _this.errors.record(error.response.data.errors);
+            });
+        },
+        checkPassword: function checkPassword() {
+            var _this2 = this;
+
+            axios.post('/password', {
+                password: this.password
+            }).then(function (response) {
+                console.log(response.data);
+                if (response.data) {
+                    _this2.hasPassword = true;
+                    _this2.incorrectPassword = false;
+                } else {
+                    _this2.incorrectPassword = true;
+                }
+            }).catch(function (error) {
+                console.log(error);
             });
         }
     }
