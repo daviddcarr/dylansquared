@@ -44,7 +44,7 @@ class PartyController extends Controller
         Party::create(request(['name', 'slug', 'photo','location','role','groom', 'about', 'url']));
 
         $rsvps = Rsvp::get();
-        return view('home', compact('rsvps'));
+        return view('pages.admin', compact('rsvps'));
     }
 
     public function delete(Party $party) {

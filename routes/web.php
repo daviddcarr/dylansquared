@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.index');
-});
+Route::get('/', 'HomeController@index');
 
 // Route::get('/admin', 'RsvpController@show');
 
@@ -31,4 +29,4 @@ Route::post('/newParty', 'PartyController@store');
 
 Auth::routes();
 
-Route::get('/admin', 'HomeController@index')->name('home');
+Route::get('/admin', 'HomeController@admin')->name('admin');

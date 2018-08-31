@@ -12,6 +12,9 @@
     <div class="contianer-fluid" id="story">
         @include('sections.story')
     </div>
+    <div class="contianer-fluid bg-light" id="participants">
+        @include('sections.participants')
+    </div>
     <div class="container-fluid" id="gallery">
         @include('sections.gallery')
     </div>

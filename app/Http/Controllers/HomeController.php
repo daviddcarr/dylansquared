@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Rsvp;
+use App\party;
 
 class HomeController extends Controller
 {
@@ -14,7 +15,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth')->only(['admin']);
     }
 
     /**
@@ -22,9 +23,18 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
     public function index()
     {
-        $rsvps = Rsvp::get();
-        return view('home', compact('rsvps'));
+        $participants = Party::getSorted();
+        return view('pages.index', compact('participants'));
+
     }
+
+    public function admin()
+    {
+        $rsvps = Rsvp::get();
+        return view('pages.admin', compact('rsvps'));
+    }
+
 }
