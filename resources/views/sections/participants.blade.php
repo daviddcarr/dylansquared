@@ -159,7 +159,7 @@
 
     </div>
     @endif --}}
-    @if ($participants->officiants || $participants->bouncers || $participants->rings || $participants->flowers || $participants->photographers || $participants->planners || $participant->caterers)
+    @if ($participants->officiants || $participants->bouncers || $participants->rings || $participants->flowers || $participants->photographers || $participants->planners || $participants->caterers)
         <hr class="rainbow" />
 
         <div class="row justify-content-center py-3">
