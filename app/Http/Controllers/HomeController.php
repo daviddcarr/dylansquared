@@ -27,6 +27,7 @@ class HomeController extends Controller
     public function index()
     {
         $participants = Party::getSorted();
+
         return view('pages.index', compact('participants'));
 
     }
