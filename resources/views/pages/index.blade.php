@@ -1,29 +1,30 @@
 @extends('layouts.master')
 
 @section('content')
+    @include('sections.hero')
+    @include('sections.rsvp')
 
-    {{-- <div class="nav-item">
-        <a href="/rsvp" class="btn btn-lg btn-primary">RSVP</a>
-    </div> --}}
+    {{-- The Story --}}
+    @include('sections.story.01-high-school')
+    @include('sections.story.02-college')
+    @include('sections.story.03-message')
+    @include('sections.story.04-reconnecting')
+    @include('sections.story.05-dallas')
+    @include('sections.story.06-engagement-1')
+    @include('sections.story.07-engagement-2')
+    @include('sections.story.08-engagement-3')
+    @include('sections.story.09-engagement-4')
+    @include('sections.story.10-engagement-5')
+    @include('sections.story.11-engagement-6')
+    @include('sections.story.12-he-said-yes')
+    @include('sections.story.13-final')
 
-    <div class="contianer-fluid" id="Intro">
-        @include('sections.intro')
-    </div>
-    <div class="contianer-fluid" id="story">
-        @include('sections.story')
-    </div>
-    <div class="contianer-fluid bg-light" id="participants">
-        @include('sections.participants')
-    </div>
-    <div class="container-fluid" id="gallery">
-        @include('sections.gallery')
-    </div>
-    <div class="container-fluid px-0 bg-secondary text-white" id="directions">
-        @include('sections.directions')
-    </div>
-    <div class="container-fluid" id="faqs">
-        @include('sections.faqs')
-    </div>
+    {{-- aaaaand scene --}}
+    
+    {{-- @include('sections.participants') --}}
+    @include('sections.location')
+    @include('sections.map')
+    @include('sections.faqs')
 
     <div class="position-fixed" id="back-to-top">
         <i class="material-icons text-red">

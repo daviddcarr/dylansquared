@@ -9,16 +9,16 @@
         <link rel="icon" href="../../../../favicon.ico">
 
         <title>The Dylans' Wedding</title>
-
-        <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700&Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto+Condensed|Roboto:400,400i,700&display=swap&Material+Icons" rel="stylesheet">
         <link href="/css/app.css" rel="stylesheet">
+        <link href="/css/fullpage.min.css" rel="stylesheet">
     </head>
 
     <body class="text-center">
 
         @include('partials.header')
 
-        <div class="container-fluid px-0">
+        <div class="container-fluid px-0" id="fullpage">
             @yield('content')
         </div>
 

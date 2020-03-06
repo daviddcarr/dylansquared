@@ -1,0 +1,17 @@
+header {
+    position: absolute;
+    background-color: rgba(255,255,255,0.8);
+    backdrop-filter: blur(10px);
+    z-index:1000;
+
+    .container {
+        nav {
+            .navbar-brand {
+                width:60%;
+                @media (min-width: 768px) {
+                    width:auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,165 @@
+
+#story-1 {
+    background-image: url('/images/Arkansas.jpg');
+}
+
+#story-2 {
+    background-image: url('/images/UALR_Student_Services_Center.jpg');
+}
+
+#story-3 {
+    $message-blue: #407fff;
+    .fb-message {
+        background-color:$message-blue;
+        padding: 14px;
+        border-radius: 20px;
+        position: relative;
+        transform-origin: 0% 100%;
+        transform: scale(0);
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-name: message-close;
+        // transition-delay: 2s;
+        // transition: transform 0.7s cubic-bezier(.75,.99,.76,1.1);
+        p {
+            font-size: 22px;
+            line-height: 26px;
+            margin-bottom: 0px;
+        }
+        &.first-message {
+            width: 260px;
+        }
+        &.second-message {
+            width: 150px;
+        }
+    }
+    .sender, .date {
+        transform: scale(0);
+        transform-origin: 0% 0%;
+        animation-fill-mode: forwards;
+        animation-duration:0.3s;
+        animation-name: message-close;
+    }
+}
+
+body.fp-viewing-message #story-3 {
+    .fb-message {
+        // transform: scale(1);
+        animation-name: message-open;
+        &.first-message {
+            animation-delay: 0.5s;
+        }
+        &.second-message {
+            animation-delay:3.5s;
+        }
+    }
+    .sender {
+        animation-name: message-open;
+
+        &.first-sender {
+            animation-delay: 1s;
+        }
+        &.second-sender {
+            animation-delay: 4s;
+        }
+    }
+    .date {
+        animation-name: message-open;
+        animation-delay: 4.8s;
+    }
+}
+
+@keyframes message-open {
+    0% {
+		transform: scale(0);
+	}
+
+	10% {
+		transform: scale(0);
+	}
+
+	28% {
+		transform: scale(1.32);
+	}
+
+	44% {
+		transform: scale(0.87);
+	}
+
+	59% {
+		transform: scale(1.05);
+	}
+
+	73% {
+		transform: scale(0.98);
+	}
+
+	88% {
+		transform: scale(1.01);
+	}
+
+	100% {
+		transform: scale(1);
+    }
+}
+@keyframes message-close {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+#story-4 {
+
+}
+
+#story-5 {
+    background-image: url('/images/Bridge-Facing-Camera.jpg');
+    background-position: 27% center;
+    @media (min-width: 768px) {
+        background-position: 13% center;
+    }
+    @media (min-width: 992px) {
+        background-position: 19% center;
+    }
+    @media (min-width: 1200px) {
+        background-position: center;
+    }
+}
+
+#story-6 {
+    
+}
+
+#story-7 {
+    background-image: url('/images/Paris.jpg');
+}
+
+#story-8 {
+    
+}
+
+#story-9 {
+    background-image: url('/images/shard.jpg');
+}
+
+#story-10 {
+    background-image: url('/images/rainywindows.jpg');
+    background-position: 30% center;
+    @media (min-width: 768px) {
+        background-position: 30% center;
+    }
+    @media (min-width: 1200px) {
+        background-position: center;
+    }
+}
+
+#story-11 {
+    
+}
+
+#story-12 {
+    background-image: url('/images/dylan-ring.jpg');
+}

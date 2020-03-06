@@ -11,12 +11,15 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
+mix.js('node_modules/jquery/dist/jquery.min.js', 'public/js')
+    .js('node_modules/fullpage.js/dist/fullpage.min.js', 'public/js')
+    .js('resources/assets/js/app.js', 'public/js')
     .js('resources/assets/js/main.js', 'public/js')
     .js('resources/assets/js/bootstrap.js', 'public/js')
 
     //Images
     .copy('resources/assets/images/**/*', 'public/images')
+    .copy('node_modules/fullpage.js/dist/fullpage.css', 'public/css')
 
     // CSS
     .sass('resources/assets/sass/app.scss', 'public/css');

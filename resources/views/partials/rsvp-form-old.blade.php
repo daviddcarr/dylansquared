@@ -1,5 +1,7 @@
 <form  method="POST" action="/rsvp">
     {{ csrf_field() }}
+    <h2>RSVP!</h2>
+    <hr class="rainbow">
 
     <div class="form-group">
         <label for="name">Name<sup class='text-danger'>*</sup></label>

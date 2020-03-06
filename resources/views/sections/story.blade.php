@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container section">
 
     <hr class="rainbow" />
 
@@ -24,6 +24,8 @@
             <img src="images/selfie-france.jpg" class="w-100" />
         </div>
     </div>
+</div>
+<div class="container section">
     <div class="row align-items-center py-3">
         <div class="col-12 col-md-5 order-2 order-md-1">
             <img src="images/dallas-skyline.jpg" class="w-100" data-toggle="tooltip" data-placement="top" title="Dallas y'all"/>
@@ -37,6 +39,8 @@
             </p>
         </div>
     </div>
+</div>
+<div class="container section">
     <div class="row align-items-center py-3">
         <div class="col-12 col-md-7 text-center text-md-right">
             <h4>The Engagement</h4>
@@ -64,6 +68,8 @@
             <img src="/images/the-shard.jpg" class="w-100" data-toggle="tooltip" data-placement="top" title="The Shard"/>
         </div>
     </div>
+</div>
+<div class="container section">
     <div class="row justify-content-center">
         <div class="col-12 col-md-7 py-4">
             <img src="/images/dylan-ring.jpg" class="w-100" data-toggle="tooltip" data-placement="top" title="He's telling everyone"/>

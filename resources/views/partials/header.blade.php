@@ -16,13 +16,16 @@
                         <a class="nav-link h-text-red" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link h-text-orange" href="/#story">Story</a>
+                        <a class="nav-link h-text-orange" href="/#rsvp">RSVP</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link h-text-orange" href="/#high-school">Story</a>
+                    </li>
+                    {{-- <li class="nav-item">
                         <a class="nav-link h-text-green" href="/#gallery">Gallery</a>
-                    </li>
+                    </li> --}}
                     <li class="nav-item">
-                        <a class="nav-link h-text-blue" href="/#directions">Directions</a>
+                        <a class="nav-link h-text-blue" href="/#location">Directions</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h-text-indigo" href="/#faqs">FAQs</a>

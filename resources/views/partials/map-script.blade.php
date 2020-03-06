@@ -5,8 +5,8 @@
 
 <script>
 function initMap() {
-    var ceremony = {lat: 34.4354761, lng: -93.0442574};
-    var center = {lat: 34.481589, lng: -93.085549}
+    var ceremony = {lat: 35.220244, lng: -93.2512865};
+    var center = {lat: 35.254429, lng: -93.171151};
     var map = new google.maps.Map(
         document.getElementById('map'), {
             zoom: 12,

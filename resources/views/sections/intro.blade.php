@@ -10,7 +10,7 @@
                 <p>Also, you get to see two dudes get married, that's kinda cool... right?</p>
             </div>
             <div>
-                @include('partials.rsvp-form')
+                @include('partials.rsvp-form-old')
             </div>
         </div>
     </div>

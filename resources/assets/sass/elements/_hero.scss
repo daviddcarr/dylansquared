@@ -1,0 +1,20 @@
+#hero {
+    // background-image: url('/images/Garden-Under-Tree-2.jpg');
+    background-image: url('/images/Garden-Under-Tree-2.jpg');
+
+    .text-block {
+        // left:-120%;
+        position: relative;
+        // transition: left 600ms cubic-bezier(.75,.99,.76,1.1);
+    }
+
+    background-position: 65% center;
+    @media (min-width: 768px) {
+        background-position: center;
+    }
+
+}
+
+// body.fp-viewing-home #hero .text-block {
+//     left:0%;
+// }

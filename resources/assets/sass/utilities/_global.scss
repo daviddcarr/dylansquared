@@ -4,6 +4,14 @@
     min-height: 100%;
 }
 
+.h-100 {
+    height:100%;
+}
+
+.w-fit-content {
+    width: fit-content;
+}
+
 // Change this to something more fitting of the website's design.
 .outline-none {
     outline:0;
@@ -39,6 +47,50 @@
 }
 .bg-indigo {
     background-color:$indigo;
+}
+
+// BG Size
+
+.bg-cover {
+    background-size:cover;
+}
+.bg-contain {
+    background-size:contain;
+}
+.bg-center {
+    background-position: center;
+}
+.bg-left {
+    background-position: left center;
+}
+.bg-right {
+    background-position: right center;
+}
+
+//md
+@media (min-width: 768px) {
+    .bg-md-center {
+        background-position: center;
+    }
+    .bg-md-left {
+        background-position: left center;
+    }
+    .bg-md-right {
+        background-position: right center;
+    }
+}
+
+//lg
+@media (min-width: 992px) {
+    .bg-lg-center {
+        background-position: center;
+    }
+    .bg-lg-left {
+        background-position: left center;
+    }
+    .bg-lg-right {
+        background-position: right center;
+    }
 }
 
 // Rainbows
@@ -84,4 +136,93 @@ hr.rainbow {
 
   /* Support for IE. */
   font-feature-settings: 'liga';
+}
+
+// FONTS
+
+p, span {
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.font-regular {
+    font-family: 'Roboto', sans-serif !important;
+}
+.font-header {
+    font-family: 'Abril Fatface', cursive !important;
+}
+.font-condensed {
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+// FullPage.js Modifications
+.flex-section .fp-tableCell {
+    display:flex !important;
+}
+
+//Video Background classes
+
+// .video-background {
+//     position: relative;
+
+//     video {
+//         position: absolute;
+//         top:50%;
+//         left:50%;
+//         min-width:100%;
+//         min-height:100%;
+//         width:auto;
+//         height:auto;
+//         z-index:0;
+//         -ms-transform: translateX(-50%) translateY(-50%);
+//         -moz-transform: translateX(-50%) translateY(-50%);
+//         -webkit-transform: translateX(-50%) translateY(-50%);
+//         transform: translateX(-50%) translateY(-50%);
+//     }
+//     .container {
+//         position: relative;
+//         z-index: 2;
+//     }
+//     .overlay {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         height:100%;
+//         width:100%;
+//         background-color:rgba(0,0,0,0.5);
+//         z-index:1;
+//     }
+// }
+
+.video-background {
+    overflow: hidden;
+
+    video {
+        position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+        z-index:3;
+           
+        &::-webkit-media-controls {
+            display:none !important;
+        }
+    }
+    .container {
+        position: relative;
+        z-index:5;
+        -webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+    }
 }
