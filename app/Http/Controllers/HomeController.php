@@ -32,6 +32,11 @@ class HomeController extends Controller
 
     }
 
+    public function faqs()
+    {
+        return view('pages.faqs');
+    }
+
     public function admin()
     {
         $rsvps = Rsvp::get();

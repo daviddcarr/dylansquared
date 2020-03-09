@@ -2,7 +2,6 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <base href="http://dylansquared.com/">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
@@ -19,7 +18,7 @@
 
         @include('partials.header')
 
-        <div class="container-fluid px-0">
+        <div class="container-fluid px-0" id="fullpage">
             @yield('content')
         </div>
 

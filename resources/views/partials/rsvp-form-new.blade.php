@@ -70,11 +70,25 @@
                 </div> --}}
             </div>
         </div>
+        <div class="row">
+            <div class="col-8">
+                <div class="form-group">
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="password"
+                        aria-describedby="passwordHelp"
+                        placeholder="Enter Passphrase"
+                        name="password">
+                </div>
+            </div>
+            <div class="col-4">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
 
+        </div>
 
         {{-- Children --}}
-
-        <button type="submit" class="btn btn-primary">Submit</button>
 
         @include('partials.errors')
     </div>

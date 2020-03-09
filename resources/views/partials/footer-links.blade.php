@@ -14,7 +14,7 @@
     $(document).ready(function() {
         new fullpage("#fullpage", {
             anchors:['home','rsvp','story','ualr','message','young-couple','present-day','engagement','planning','lift-off','dinner','the-question','the-answer','he-said-yes','future','the-participants','the-location','the-map','faqs'],
-            verticalCentered: true
+            verticalCentered: true,
         });
     });
 </script>

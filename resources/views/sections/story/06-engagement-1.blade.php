@@ -1,6 +1,6 @@
 <section class="container-fluid section" id="story-6">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-10 col-md-8 col-lg-5">
                 <div class="text-center text-md-left mb-5">
                     <h4>The Engagement</h4>

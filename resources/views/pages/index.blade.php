@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.fullpage')
 
 @section('content')
     @include('sections.hero')
@@ -24,7 +24,6 @@
     {{-- @include('sections.participants') --}}
     @include('sections.location')
     @include('sections.map')
-    @include('sections.faqs')
 
     <div class="position-fixed" id="back-to-top">
         <i class="material-icons text-red">

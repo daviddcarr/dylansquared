@@ -13,22 +13,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-md-auto">
                     <li class="nav-item">
-                        <a class="nav-link h-text-red" href="/">Home</a>
+                        <a class="nav-link h-text-red" href="/#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h-text-orange" href="/#rsvp">RSVP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link h-text-orange" href="/#high-school">Story</a>
+                        <a class="nav-link h-text-orange" href="/#story">Story</a>
                     </li>
                     {{-- <li class="nav-item">
                         <a class="nav-link h-text-green" href="/#gallery">Gallery</a>
                     </li> --}}
                     <li class="nav-item">
-                        <a class="nav-link h-text-blue" href="/#location">Directions</a>
+                        <a class="nav-link h-text-blue" href="/#the-location">Directions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link h-text-indigo" href="/#faqs">FAQs</a>
+                        <a class="nav-link h-text-indigo" href="/faqs">FAQs</a>
                     </li>
                 </ul>
             </div>

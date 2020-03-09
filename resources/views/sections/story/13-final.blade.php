@@ -8,7 +8,7 @@
             <div class="col-10 col-md-8 col-lg-5">
                 <div class="text-center text-md-left mb-5 p-3 bg-white">
                     <p class="mb-0">
-                        Fast forward several months to May 2018, the two are boarding a plane for London, England. <span class="dylan-carr">Dylan C</span> is secretly (and nervously) carrying a ring in a small compartment in his backpack, hoping security doesn't spoil the surprise. Fortunately for him, they didn't.
+                        After a long engagement and months of planning they're finally ready to tie the knot. They're inviting you to witness this wonderful moment as they embark on their next adventure.
                     </p>
                 </div>    
             </div>

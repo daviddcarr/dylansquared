@@ -1,4 +1,4 @@
-<div class="container-fluid section" id="questions">
+<div class="container-fluid pt-5">
     <div class="container py-4">
         <h3 class="pt-3 pb-4">FAQs</h3>
 

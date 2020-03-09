@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'HomeController@index');
+Route::get('/faqs', 'HomeController@faqs');
 
 // Route::get('/admin', 'RsvpController@show');
 
