@@ -1,7 +1,8 @@
 <section class="container-fluid section video-background flex-section" id="story-13">
     <div class="overlay"></div>
     <video loop muted data-autoplay>
-        <source src="/images/Eiffel-Tower-Lift.mp4" type="video/mp4">
+        <source src="/public/images/Eiffel-Tower-Lift.mp4" type="video/mp4">
+        {{-- <source src="/images/Eiffel-Tower-Lift.mp4" type="video/mp4"> --}}
     </video>
     <div class="container h-100">
         <div class="row align-items-end h-100 justify-content-center justify-content-md-end">
