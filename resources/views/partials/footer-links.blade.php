@@ -7,8 +7,10 @@
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.js"></script>
 <script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script> -->
 
-<script type="text/javascript" src="/js/app.js"></script>
-<script type="text/javascript" src="/js/main.js"></script>
+{{-- <script type="text/javascript" src="/js/app.js"></script>
+<script type="text/javascript" src="/js/main.js"></script> --}}
+<script type="text/javascript" src="/public/js/app.js"></script>
+<script type="text/javascript" src="/public/js/main.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
