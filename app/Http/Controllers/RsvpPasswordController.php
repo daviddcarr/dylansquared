@@ -34,7 +34,7 @@ class RsvpPasswordController extends Controller
             'password' => $request->password,
         ]);
 
-        return view('home');
+        return view('pages.index');
 
     }
 }
