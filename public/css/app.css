@@ -12554,6 +12554,12 @@ a.text-dark:focus {
   background-color: #5469b1;
 }
 
+.bg-blur-white {
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -12712,6 +12718,32 @@ h6 {
   transform: translate3d(0, 0, 0);
 }
 
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
 header {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.8);
@@ -12742,6 +12774,12 @@ header .container nav .navbar-brand {
 @media (min-width: 768px) {
   #hero {
     background-position: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  #hero {
+    background-position: center 10%;
   }
 }
 

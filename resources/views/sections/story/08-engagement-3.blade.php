@@ -7,7 +7,7 @@
     <div class="container h-100">
         <div class="row align-items-end h-100 justify-content-center justify-content-md-end">
             <div class="col-10 col-md-8 col-lg-5">
-                <div class="text-center text-md-left mb-5 p-3 bg-white">
+                <div class="text-center text-md-left mb-5 p-3 bg-blur-white">
                     <p class="mb-0">
                         Fast forward several months to May 2018, the two are boarding a plane for London, England. <span class="dylan-carr">Dylan C</span> is secretly (and nervously) carrying a ring in a small compartment in his backpack, hoping security doesn't spoil the surprise. Fortunately for him, they didn't.
                     </p>

@@ -49,6 +49,11 @@
     background-color:$indigo;
 }
 
+.bg-blur-white {
+    background-color: rgba(255,255,255,0.8);
+    backdrop-filter: blur(10px);
+}
+
 // BG Size
 
 .bg-cover {
@@ -224,5 +229,28 @@ h1,h2,h3,h4,h5,h6 {
         -webkit-transform: translate3d(0,0,0);
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
+    }
+}
+
+
+// Font Sizes
+h1 {
+    font-size:1.75rem;
+}
+h2 {
+    font-size:1.5rem;
+}
+p {
+    font-size: 0.9rem;
+}
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.25rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1rem;
     }
 }

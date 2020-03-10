@@ -13,6 +13,7 @@
 
 Route::get('/', 'HomeController@index');
 Route::get('/faqs', 'HomeController@faqs');
+Route::get('/thanks', 'RsvpController@thanks');
 
 // Route::get('/admin', 'RsvpController@show');
 
@@ -22,9 +23,9 @@ Route::get('/delete/{rsvp}', 'RsvpController@delete');
 
 Route::get('/party/{slug}', 'PartyController@show');
 
-Route::post('/password', 'RsvpPasswordsController@checkPassword');
+Route::post('/password', 'RsvpPasswordController@checkPassword');
 
-Route::post('/newPassword', 'RsvpPasswordsController@store');
+Route::post('/newPassword', 'RsvpPasswordController@store');
 
 Route::post('/newParty', 'PartyController@store');
 

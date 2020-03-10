@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Rsvp;
+use App\RsvpPassword;
 
 class RsvpController extends Controller
 {
@@ -36,10 +37,24 @@ class RsvpController extends Controller
             'family' => 'required',
             'guest' => '',
             'num_of_children' => '',
-            'song' => ''
+            'password' => 'required'
         ]);
 
-        Rsvp::create(request(['name','email','family','guest','num_of_children', 'song']));
+        $verified = false;
+        $passwords = RsvpPassword::get();
+        foreach($passwords as $password) {
+            if ($password->password == request('password')) {
+                $verified = true;
+            }
+        }
+
+        if ($verified) {
+            $rsvp = Rsvp::create(request(['name','email','family','guest','num_of_children']));
+            return view('pages.thanks', compact('rsvp'));
+        } else {
+            return view('pages.thanks', compact('verified'));
+        }
+
 
         // redirect to the home page
 
@@ -54,5 +69,9 @@ class RsvpController extends Controller
 
         return redirect('/admin');
 
+    }
+
+    public function thanks() {
+        return view('pages.thanks');
     }
 }

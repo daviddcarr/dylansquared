@@ -1,7 +1,7 @@
 <section class="container-fluid section bg-cover bg-center flex-section" id="story-1">
     <div class="container h-100">
         <div class="row h-100 align-items-end justify-content-center justify-content-md-start">
-            <div class="col-10 col-md-8 col-lg-5 bg-white p-3 mb-5">
+            <div class="col-10 col-md-8 col-lg-5 bg-blur-white p-3 mb-5">
                 <div class="text-center text-md-left">
                     <h2 class="mb-3">The Story</h2>
                     <hr class="rainbow" />
