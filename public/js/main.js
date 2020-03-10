@@ -60,29 +60,34 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 44);
+/******/ 	return __webpack_require__(__webpack_require__.s = 18);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 44:
+/***/ 18:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(45);
+module.exports = __webpack_require__(19);
 
 
 /***/ }),
 
-/***/ 45:
+/***/ 19:
 /***/ (function(module, exports) {
 
 $(function () {
-    $('[data-toggle="tooltip"]').tooltip();
+  $('[data-toggle="tooltip"]').tooltip();
 });
 
 $(".slug-source").keyup(function () {
-    var slug = $(this).val().replace(/\s+/g, '-').toLowerCase();
-    $(".slug-output").val(slug);
+  var slug = $(this).val().replace(/\s+/g, '-').toLowerCase();
+  $(".slug-output").val(slug);
+});
+
+$('.navbar-toggler').click(function () {
+  var target = $(this).data('target');
+  $(target).slideToggle();
 });
 
 /***/ })

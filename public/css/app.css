@@ -12731,7 +12731,7 @@ header .container nav .navbar-brand {
 }
 
 #hero {
-  background-image: url("/images/Garden-Under-Tree-2.jpg");
+  background-image: url("/public/images/Garden-Under-Tree-2.jpg");
   background-position: 65% center;
 }
 
@@ -12814,11 +12814,11 @@ header .container nav .navbar-brand {
 }
 
 #story-1 {
-  background-image: url("/images/Arkansas.jpg");
+  background-image: url("/public/images/Arkansas.jpg");
 }
 
 #story-2 {
-  background-image: url("/images/UALR_Student_Services_Center.jpg");
+  background-image: url("/public/images/UALR_Student_Services_Center.jpg");
 }
 
 #story-3 .fb-message {
@@ -13012,7 +13012,7 @@ body.fp-viewing-message #story-3 .date {
 }
 
 #story-5 {
-  background-image: url("/images/Bridge-Facing-Camera.jpg");
+  background-image: url("/public/images/Bridge-Facing-Camera.jpg");
   background-position: 27% center;
 }
 
@@ -13035,15 +13035,15 @@ body.fp-viewing-message #story-3 .date {
 }
 
 #story-7 {
-  background-image: url("/images/Paris.jpg");
+  background-image: url("/public/images/Paris.jpg");
 }
 
 #story-9 {
-  background-image: url("/images/shard.jpg");
+  background-image: url("/public/images/shard.jpg");
 }
 
 #story-10 {
-  background-image: url("/images/rainywindows.jpg");
+  background-image: url("/public/images/rainywindows.jpg");
   background-position: 30% center;
 }
 
@@ -13060,10 +13060,10 @@ body.fp-viewing-message #story-3 .date {
 }
 
 #story-12 {
-  background-image: url("/images/dylan-ring.jpg");
+  background-image: url("/public/images/dylan-ring.jpg");
 }
 
 #address {
-  background-image: url("/images/Mt_Nebo_State_Park-Pavilion.jpg");
+  background-image: url("/public/images/Mt_Nebo_State_Park-Pavilion.jpg");
 }
 

@@ -6,7 +6,7 @@
                 @include('svgs/logo')
             </a>
 
-            <button class="navbar-toggler outline-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler outline-none" role="button" data-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 

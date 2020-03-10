@@ -7,3 +7,7 @@ $(".slug-source").keyup(function(){
     $(".slug-output").val(slug);
 });
 
+$('.navbar-toggler').click(function() {
+  var target = $(this).data('target');
+  $(target).slideToggle();
+});
