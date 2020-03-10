@@ -1,6 +1,6 @@
 <section class="container-fluid section video-background flex-section" id="story-8">
     <div class="overlay"></div>
-    <video loop muted data-autoplay playsinline preload="auto" poster="/public/images/take-off-poster.jpg">
+    <video loop muted data-autoplay playsinline preload="auto" poster="/public/images/take-off-poster.gif">
         <source src="/public/images/Take-off.mp4" type="video/mp4">
         {{-- <source src="/images/Take-off.mp4" type="video/mp4"> --}}
     </video>

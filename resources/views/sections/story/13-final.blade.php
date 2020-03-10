@@ -1,6 +1,6 @@
 <section class="container-fluid section video-background flex-section" id="story-13">
     <div class="overlay"></div>
-    <video loop muted data-autoplay playsinline preload="auto" poster="/public/images/eiffel-tower-poster.jpg">
+    <video loop muted data-autoplay playsinline preload="auto" poster="/public/images/eiffel-tower-poster.gif">
         <source src="/public/images/Eiffel-Tower-Lift.mp4" type="video/mp4">
         {{-- <source src="/images/Eiffel-Tower-Lift.mp4" type="video/mp4"> --}}
     </video>
